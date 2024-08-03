@@ -20,8 +20,8 @@
 
 <body>
     <div class="container centered-button">
-        <a href="" class="btn btn-dark shadow btn-lg">
-            Menuju Photobooth</a>
+        <a href="" class="btn btn-dark shadow btn-lg" id="pay-button">
+            Bayar</a>
     </div>
 </body>
 
