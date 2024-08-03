@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use BeyondCode\Vouchers\Traits\HasVouchers;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Biaya extends Model
 {
-    use HasFactory;
+    use HasFactory,HasVouchers;
 
     protected $fillable = [
         'biaya'
